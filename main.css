@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Syne&display=swap');
 
 body {
     /* css goes here*/
@@ -8,17 +8,19 @@ body {
     color: #26474D;
 }
 h1{
-    font-family: 'Syne', sans-serif;
+    font-family: 'Staatliches', cursive;
     text-align: center;
     color: #8A3232;
+    margin-bottom: 100px;
+    font-size: 75px;
 }
 p{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 img {
     display: block;
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
 }
 a{
@@ -31,8 +33,15 @@ a:hover, a:active {
 }
 .paragraph {
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
-.links{
-    text-align: center;
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.CV{
+    margin-left: 30px;
+    margin-right: 30px;
 }
